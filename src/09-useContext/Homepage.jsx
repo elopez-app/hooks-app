@@ -9,7 +9,7 @@ export const Homepage = () => {
       <h1>Homepage</h1>
       <hr />
 
-      <pre>{JSON.stringify(user)}</pre>
+      <pre aria-label="user">{JSON.stringify(user)}</pre>
 
       <button
         onClick={() =>

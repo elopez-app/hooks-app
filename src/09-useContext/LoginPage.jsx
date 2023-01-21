@@ -9,7 +9,7 @@ export const LoginPage = () => {
       <h1>Login Page</h1>
       <hr />
 
-      <pre>{JSON.stringify(user)}</pre>
+      <pre aria-label="user">{JSON.stringify(user)}</pre>
     </>
   );
 };
